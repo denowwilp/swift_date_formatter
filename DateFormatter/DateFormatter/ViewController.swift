@@ -18,8 +18,20 @@ class ViewController: UIViewController {
     
     func showDate() {
         let lbl = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+        
+        
+        
+        
         lbl.backgroundColor = .gray
         lbl.textColor = .white
+        
+        // Uncomment below code for change 1
+        // lbl.textColor = .red
+        
+        // Uncomment below code for change 2
+        // lbl.textColor = .blue
+        
+        
         lbl.font = UIFont.systemFont(ofSize: 12)
         lbl.textAlignment = .center
         
