@@ -22,10 +22,10 @@ class ViewController: UIViewController {
         
         
         
-        lbl.backgroundColor = .gray
+        lbl.backgroundColor = .gray 
         lbl.textColor = .white
         
-        // Uncomment below code for change 1
+        // Uncomment below code for change 1 
         // lbl.textColor = .red
         
         // Uncomment below code for change 2
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         lbl.center = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
         
-        self.view.addSubview(lbl)
+        self.view.addSubview(lbl) 
     }
 
 }
